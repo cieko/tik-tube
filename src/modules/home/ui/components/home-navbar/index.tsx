@@ -36,7 +36,7 @@ export const HomeNavbar = () => {
         </div>
 
         {/* Auth */}
-        <div className='flex-shrink-0 items-center flex gap-4'>
+        <div className='w-32 items-center flex justify-end gap-4'>
           <AuthButton />
         </div>
       </div>

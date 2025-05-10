@@ -1,8 +1,11 @@
+import { trpc } from "@/trpc/server"
 
-export default function Home() {
+export default async function Home() {
+  void trpc.hello.prefetch({ text: "Rahul" });
+
   return (
     <div>
-      Loading ...
+      {/* Loading ... */}
 
       
     </div>
