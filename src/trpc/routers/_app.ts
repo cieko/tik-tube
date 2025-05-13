@@ -8,6 +8,7 @@ export const appRouter = createTRPCRouter({
       }),
     )
     .query((opts) => {
+      console.log("Hello world")
       return {
         greeting: `hello ${opts.input.text}`,
       };
